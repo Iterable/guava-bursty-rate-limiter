@@ -1,0 +1,13 @@
+target/
+bin/
+lib_managed/
+src_managed/
+.settings/
+.classpath
+.project
+.cache
+*.class
+*.log
+*.iml
+.idea
+.idea_modules
