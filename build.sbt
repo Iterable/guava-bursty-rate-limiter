@@ -24,6 +24,7 @@ lazy val root = (project in file("."))
   .settings(
     name := "guava-bursty-rate-limiter",
     crossPaths := false,
+    autoScalaLibrary := false,
     libraryDependencies += "com.google.guava" % "guava" % "19.0"
   )
 
