@@ -22,7 +22,7 @@ concurrency:
 jobs:
   analyze:
     name: (${{ matrix.language }})
-    runs-on: gha-runner-no-perms
+    runs-on: ubuntu-latest
     permissions:
       # required for all workflows
       security-events: write
