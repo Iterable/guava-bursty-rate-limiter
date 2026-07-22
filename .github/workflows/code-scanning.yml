@@ -1,4 +1,4 @@
-name: "CodeQL Advanced"
+name: "Code Scanning"
 
 on:
   push:
